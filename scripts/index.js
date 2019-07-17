@@ -228,4 +228,5 @@ function handleShoppingList() {
 $(handleShoppingList);
 
 console.log(STORE);
-console.log(foo);
+//console.log(foo);
+console.log(ping);
