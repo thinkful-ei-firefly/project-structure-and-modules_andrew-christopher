@@ -1,16 +1,5 @@
 'use strict';
 
-const STORE = {
-  items: [
-    {id: cuid(), name: "apples", checked: false, isEditing: false},
-    {id: cuid(), name: "oranges", checked: false, isEditing: false},
-    {id: cuid(), name: "milk", checked: true, isEditing: false},
-    {id: cuid(), name: "bread", checked: false, isEditing: false}
-  ],
-  hideCompleted: false,
-  searchTerm: null,
-};
-
 function generateItemElement(item) {
   let itemMainTitle;
   if (item.isEditing) {
@@ -237,3 +226,6 @@ function handleShoppingList() {
 
 // when the page loads, call `handleShoppingList`
 $(handleShoppingList);
+
+console.log(STORE);
+console.log(foo);
